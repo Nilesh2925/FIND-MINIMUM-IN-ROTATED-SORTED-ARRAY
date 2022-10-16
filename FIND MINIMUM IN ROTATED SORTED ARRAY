@@ -1,0 +1,10 @@
+//it is verry hard when we try to solve by rotated array method
+// just sort the array and you get the min element of array at the begining og array
+
+class Solution {
+public:
+    int findMin(vector<int>& nums) {
+       sort(nums.begin(),nums.end());
+      return nums[0]; 
+    }
+};
